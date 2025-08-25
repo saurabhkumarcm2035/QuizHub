@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create a new axios instance with a base URL
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://quizhub-backend-g6ps.onrender.com/api',
 });
 
 /* Add a request interceptor. This function will run BEFORE every
